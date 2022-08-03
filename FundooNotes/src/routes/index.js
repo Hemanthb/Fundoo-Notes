@@ -12,7 +12,7 @@ const routes = () => {
     res.json('Welcome');
   });
   router.use('/users', userRoute);
-
+  
   return router;
 };
 
