@@ -6,9 +6,15 @@
     "auditLog": "logs\\requests\\daily\\.66602cdde70fd43456e51d0c9addc83824638c4d-audit.json",
     "files": [
         {
+<<<<<<< HEAD
             "date": 1659514001129,
             "name": "logs\\requests\\daily\\2022-08-03.log",
             "hash": "37db04cda0d20ee812321b260da29dd602dc11199f0cd69fe724e320f8c698bd"
+=======
+            "date": 1659510975180,
+            "name": "logs\\requests\\daily\\2022-08-03.log",
+            "hash": "bcc5a9f5e531f3137e084f22b8b71840acd82c86949ad9904618831c34740128"
+>>>>>>> UserLogin
         }
     ],
     "hashType": "sha256"

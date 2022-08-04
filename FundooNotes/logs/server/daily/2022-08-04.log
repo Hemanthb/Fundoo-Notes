@@ -1,0 +1,9 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T03:05:53.385Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T03:05:53.405Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T03:07:08.497Z"}
