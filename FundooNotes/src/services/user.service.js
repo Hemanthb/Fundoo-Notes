@@ -1,4 +1,5 @@
 import User from '../models/user.model';
+import bcrypt from 'bcrypt';
 
 //get all users
 export const getAllUsers = async () => {
@@ -13,6 +14,9 @@ export const newUser = async (body) => {
     throw new Error("User With same MailId Already Exists!!");
   }
   else{
+    const saltRounds = 10;
+    const hashedPassword = await bcrypt.hash(body.Password,saltRounds);
+    body.Password = hashedPassword;
     const data = await User.create(body);
     return data;
   }
@@ -21,8 +25,9 @@ export const newUser = async (body) => {
 //Checks whether login details are valid
 export const checkLogin = async (body) => {
   const loginDetails = await User.findOne({EmailId:body.EmailId})
+  const checkPwdMatch = await bcrypt.compare(body.Password,loginDetails.Password);
   if(loginDetails){
-    if(loginDetails.Password == body.Password){
+    if(checkPwdMatch){
       return loginDetails;
     }
     else{
