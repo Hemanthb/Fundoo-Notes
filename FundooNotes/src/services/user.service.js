@@ -25,8 +25,9 @@ export const newUser = async (body) => {
 //Checks whether login details are valid
 export const checkLogin = async (body) => {
   const loginDetails = await User.findOne({EmailId:body.EmailId})
-  const checkPwdMatch = await bcrypt.compare(body.Password,loginDetails.Password);
+  
   if(loginDetails){
+    const checkPwdMatch = await bcrypt.compare(body.Password,loginDetails.Password);
     if(checkPwdMatch){
       return loginDetails;
     }
