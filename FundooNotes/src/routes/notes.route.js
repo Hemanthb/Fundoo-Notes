@@ -11,7 +11,10 @@ router.post('',notesController.newNotes);
 //To get all Notes 
 router.get('',notesController.getAllNotes);
 
-//To update Notes
+//To update details of Notes
 router.put('/:_id',notesController.updateNotes);
+
+//To delete a note
+router.delete('/:_id',notesController.deleteNotes);
 
 export default router;

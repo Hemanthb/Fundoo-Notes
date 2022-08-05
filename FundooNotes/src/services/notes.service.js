@@ -27,3 +27,8 @@ export const updateNotes = async(_id,body) => {
     return updatedNoteData;
 };
 
+//Deletes Note
+export const deleteNotes = async(id) => {
+    await Notes.findByIdAndDelete(id);
+    return '';
+};

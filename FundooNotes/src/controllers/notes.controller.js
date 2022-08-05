@@ -70,3 +70,26 @@ export const updateNotes = async(req, res, next) => {
     }
 };
 
+/**
+ * Controller to Delete notes
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const deleteNotes = async(req, res, next) => {
+    try{
+        const deletedData = await notesService.deleteNotes(req.params._id);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: [],
+            message: 'Deleted Note Successfully'
+            });
+    }
+    catch(error){
+        res.status(HttpStatus.BAD_REQUEST).json({
+            code: HttpStatus.BAD_REQUEST,
+            message: `${error}`
+            });
+    }
+};
+

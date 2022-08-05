@@ -28,3 +28,13 @@ info: ::1 - - [05/Aug/2022:11:44:33 +0000] "GET /api/v1/notes/62ece98a4557015e59
 
 info: ::1 - - [05/Aug/2022:11:44:49 +0000] "PUT /api/v1/notes/62ece98a4557015e59d4eeea HTTP/1.1" 202 300 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [05/Aug/2022:12:00:10 +0000] "DELETE /api/v1/notes/62ece98a4557015e59d4eeea HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:12:00:48 +0000] "DELETE /api/v1/notes/62ece98a4557015e59d4eeea HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:12:02:08 +0000] "DELETE /api/v1/notes/62ece98a4557015e59d4eeea HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:12:04:16 +0000] "DELETE /api/v1/notes/62ece98a4557015e59d4eeea HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:12:04:30 +0000] "GET /api/v1/notes HTTP/1.1" 202 298 "-" "PostmanRuntime/7.29.2"
+
