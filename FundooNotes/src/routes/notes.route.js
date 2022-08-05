@@ -11,4 +11,7 @@ router.post('',notesController.newNotes);
 //To get all Notes 
 router.get('',notesController.getAllNotes);
 
+//To update Notes
+router.put('/:_id',notesController.updateNotes);
+
 export default router;

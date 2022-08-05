@@ -52,3 +52,19 @@ info: ::1 - - [05/Aug/2022:09:41:41 +0000] "GET /api/v1/notes HTTP/1.1" 202 298 
 
 info: ::1 - - [05/Aug/2022:09:51:02 +0000] "GET /api/v1/notes HTTP/1.1" 202 298 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [05/Aug/2022:09:57:30 +0000] "POST /api/v1/notes HTTP/1.1" 201 291 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:09:57:40 +0000] "GET /api/v1/notes HTTP/1.1" 202 531 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:11:35:36 +0000] "GET /api/v1/notes HTTP/1.1" 202 531 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:11:37:15 +0000] "GET /api/v1/notes/62ece98a4557015e59d4eeea HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:11:39:16 +0000] "GET /api/v1/notes/62ece98a4557015e59d4eeea HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:11:40:50 +0000] "GET /api/v1/notes/62ece98a4557015e59d4eeea HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:11:44:33 +0000] "GET /api/v1/notes/62ece98a4557015e59d4eeea HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:11:44:49 +0000] "PUT /api/v1/notes/62ece98a4557015e59d4eeea HTTP/1.1" 202 300 "-" "PostmanRuntime/7.29.2"
+

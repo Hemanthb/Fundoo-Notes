@@ -46,3 +46,27 @@ export const getAllNotes = async (req, res, next) => {
         });
     }
     };
+
+/**
+ * Controller to Update notes
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const updateNotes = async(req, res, next) => {
+    try{
+        const data = await notesService.updateNotes(req.params._id,req.body);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'Updated Note Details Successfully'
+            });
+    }
+    catch(error){
+        res.status(HttpStatus.BAD_REQUEST).json({
+            code: HttpStatus.BAD_REQUEST,
+            message: `${error}`
+            });
+    }
+};
+

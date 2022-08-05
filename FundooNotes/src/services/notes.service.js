@@ -10,10 +10,20 @@ export const newNotes = async (body) => {
         const data = await Notes.create(body);
         return data;
     }
-}
+};
 
 //Fetch all Notes
 export const getNotes = (body) => {
     const getNotesDetails = Notes.find(function(err,docs){});
     return getNotesDetails;
-}
+};
+
+//Update Note Details
+export const updateNotes = async(_id,body) => {
+    const updatedNoteData = await Notes.findByIdAndUpdate({
+        _id
+    },
+    body,{new:true});
+    return updatedNoteData;
+};
+
