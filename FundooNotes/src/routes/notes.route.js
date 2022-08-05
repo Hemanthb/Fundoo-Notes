@@ -8,4 +8,7 @@ const router = express.Router();
 //To create new notes
 router.post('',notesController.newNotes);
 
+//To get all Notes 
+router.get('',notesController.getAllNotes);
+
 export default router;

@@ -11,3 +11,9 @@ export const newNotes = async (body) => {
         return data;
     }
 }
+
+//Fetch all Notes
+export const getNotes = (body) => {
+    const getNotesDetails = Notes.find(function(err,docs){});
+    return getNotesDetails;
+}

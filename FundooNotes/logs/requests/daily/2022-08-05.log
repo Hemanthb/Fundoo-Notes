@@ -2,3 +2,13 @@ info: ::1 - - [05/Aug/2022:07:14:33 +0000] "POST /api/v1/notes HTTP/1.1" 404 47 
 
 info: ::1 - - [05/Aug/2022:07:18:45 +0000] "POST /api/v1/notes HTTP/1.1" 201 292 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [05/Aug/2022:09:39:43 +0000] "GET /api/v1/notes HTTP/1.1" 202 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:09:40:00 +0000] "GET /api/v1/notes HTTP/1.1" 202 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49"
+
+info: ::1 - - [05/Aug/2022:09:40:01 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49"
+
+info: ::1 - - [05/Aug/2022:09:41:41 +0000] "GET /api/v1/notes HTTP/1.1" 202 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:09:51:02 +0000] "GET /api/v1/notes HTTP/1.1" 202 298 "-" "PostmanRuntime/7.29.2"
+

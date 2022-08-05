@@ -23,3 +23,26 @@ export const newNotes = async (req, res, next) => {
         });
       }
 };
+
+/**
+ * Controller to get all notes
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const getAllNotes = async (req, res, next) => {
+    try{
+        const data = await notesService.getNotes();
+        res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'Fetched All Notes Successfully'
+        });
+    }
+    catch(error){
+        res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+        });
+    }
+    };
