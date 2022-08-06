@@ -18,6 +18,12 @@ export const getNotes = (body) => {
     return getNotesDetails;
 };
 
+//Retrieve a particular note by Id
+export const getNote = async(id) => {
+    const getNoteData = await Notes.findById(id);
+    return getNoteData;
+};
+
 //Update Note Details
 export const updateNotes = async(_id,body) => {
     const updatedNoteData = await Notes.findByIdAndUpdate({

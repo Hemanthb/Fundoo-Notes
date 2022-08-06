@@ -48,6 +48,30 @@ export const getAllNotes = async (req, res, next) => {
     };
 
 /**
+ * Controller to get a note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const getANote = async (req, res, next) => {
+    try{
+        const data = await notesService.getNote(req.params._id);
+        res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Fetched Note Successfully'
+        });
+    }
+    catch(error){
+        res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+        });
+    }
+    };
+
+
+/**
  * Controller to Update notes
  * @param  {object} req - request object
  * @param {object} res - response object

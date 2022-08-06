@@ -78,3 +78,31 @@ info: ::1 - - [05/Aug/2022:12:04:16 +0000] "DELETE /api/v1/notes/62ece98a4557015
 
 info: ::1 - - [05/Aug/2022:12:04:30 +0000] "GET /api/v1/notes HTTP/1.1" 202 298 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [05/Aug/2022:16:49:55 +0000] "POST /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:16:50:04 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:16:51:17 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:16:52:01 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:16:53:33 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:16:53:48 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:16:57:06 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:17:00:33 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:17:02:58 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:17:03:11 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:17:03:16 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Aug/2022:17:03:40 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:01:47:17 +0000] "GET /api/v1/notes HTTP/1.1" 202 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:01:47:36 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.2"
+
