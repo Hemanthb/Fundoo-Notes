@@ -106,3 +106,167 @@ info: ::1 - - [06/Aug/2022:01:47:17 +0000] "GET /api/v1/notes HTTP/1.1" 202 298 
 
 info: ::1 - - [06/Aug/2022:01:47:36 +0000] "GET /api/v1/notes/62ecc45502078bbc0d4d05b6 HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [06/Aug/2022:02:50:09 +0000] "POST /api/v1/notes HTTP/1.1" 201 296 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:02:50:22 +0000] "GET /api/v1/notes HTTP/1.1" 202 536 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:02:50:53 +0000] "GET /api/v1/notes/62edd6e1a32e09b55588d60d HTTP/1.1" 200 295 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:02:51:33 +0000] "PUT /api/v1/notes/62edd6e1a32e09b55588d60d HTTP/1.1" 202 301 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:02:51:49 +0000] "DELETE /api/v1/notes/62edd6e1a32e09b55588d60d HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:02:55:31 +0000] "GET /api/v1/notes HTTP/1.1" 202 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [06/Aug/2022:02:55:54 +0000] "GET /api/v1/notes HTTP/1.1" 202 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Aug/2022:19:09:45 +0000] "GET /api/v1/users HTTP/1.1" 200 1160 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Aug/2022:19:11:22 +0000] "GET /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Aug/2022:19:11:29 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Aug/2022:19:12:53 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Aug/2022:19:13:05 +0000] "GET /api/v1/users HTTP/1.1" 200 1160 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Aug/2022:19:14:13 +0000] "POST /api/v1/users HTTP/1.1" 500 89 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Aug/2022:19:14:21 +0000] "POST /api/v1/users HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Aug/2022:19:15:21 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Aug/2022:19:16:59 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:02:57:27 +0000] "GET /api/v1/users HTTP/1.1" 200 1421 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:02:59:37 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:00:34 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:02:35 +0000] "POST /api/v1/users/login HTTP/1.1" 400 87 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:03:19 +0000] "POST /api/v1/users/login HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:03:51 +0000] "GET /api/v1/notes HTTP/1.1" 202 65 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:05:22 +0000] "POST /api/v1/notes HTTP/1.1" 201 274 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:07:00 +0000] "POST /api/v1/notes HTTP/1.1" 201 274 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:09:30 +0000] "POST /api/v1/notes HTTP/1.1" 400 69 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:09:42 +0000] "POST /api/v1/notes HTTP/1.1" 201 276 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:11:24 +0000] "POST /api/v1/notes HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:14:18 +0000] "POST /api/v1/notes HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:16:40 +0000] "POST /api/v1/notes HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:18:57 +0000] "GET /api/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:19:04 +0000] "POST /api/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:19:54 +0000] "POST /api/v1/users/login HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'EmailId')
+TypeError: Cannot read properties of undefined (reading 'EmailId')
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:29:32
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:22:26)
+    at tryCatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:144:13) {"date":"Mon Aug 08 2022 08:56:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5425168},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301980,"external":19988280,"heapTotal":49307648,"heapUsed":44021200,"rss":82681856},"pid":107172,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'EmailId')\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:29:32\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:223:12\n    at getSecret (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:90:14)\n    at Object.verify (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:94:10)\n    at _callee$ (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:22:26)\n    at tryCatch (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at userAuth (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:12:22)\n    at Layer.handle [as handle_request] (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js:144:13)","trace":[{"column":32,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":null,"line":29,"method":null,"native":false},{"column":12,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":"getSecret","line":90,"method":null,"native":false},{"column":10,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":"Object.verify","line":94,"method":"verify","native":false},{"column":26,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":22,"method":null,"native":false},{"column":17,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":22,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":"userAuth","line":12,"method":null,"native":false},{"column":5,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false}]}
+info: ::1 - - [08/Aug/2022:03:27:51 +0000] "GET /api/v1/notes HTTP/1.1" 202 714 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:28:14 +0000] "POST /api/v1/notes HTTP/1.1" 201 303 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:30:53 +0000] "GET /api/v1/notes HTTP/1.1" 400 90 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:33:37 +0000] "GET /api/v1/notes HTTP/1.1" 400 90 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:34:56 +0000] "GET /api/v1/notes HTTP/1.1" 202 309 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: Authorization token is Incorrect
+Error: Authorization token is Incorrect
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:24:15
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:133:14
+    at getSecret (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:22:9)
+    at tryCatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:144:13) {"date":"Mon Aug 08 2022 09:07:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5425831},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19517730,"external":31639156,"heapTotal":81920000,"heapUsed":56361776,"rss":117846016},"pid":112188,"uid":null,"version":"v16.15.1"},"stack":"Error: Authorization token is Incorrect\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:24:15\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:133:14\n    at getSecret (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:90:14)\n    at Object.verify (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:94:10)\n    at _callee$ (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:22:9)\n    at tryCatch (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at userAuth (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:12:22)\n    at Layer.handle [as handle_request] (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js:144:13)","trace":[{"column":15,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":null,"line":24,"method":null,"native":false},{"column":14,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":null,"line":133,"method":null,"native":false},{"column":14,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":"getSecret","line":90,"method":null,"native":false},{"column":10,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":"Object.verify","line":94,"method":"verify","native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":22,"method":null,"native":false},{"column":17,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":22,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":"userAuth","line":12,"method":null,"native":false},{"column":5,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false}]}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Mon Aug 08 2022 09:10:29 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5426016},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18454586,"external":23169430,"heapTotal":81813504,"heapUsed":48960176,"rss":116224000},"pid":114756,"uid":null,"version":"v16.15.1"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","trace":[]}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Mon Aug 08 2022 09:11:14 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5426062},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18446394,"external":23169276,"heapTotal":82075648,"heapUsed":48907640,"rss":116002816},"pid":87108,"uid":null,"version":"v16.15.1"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","trace":[]}
+info: ::1 - - [08/Aug/2022:03:45:04 +0000] "GET /api/v1/notes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Mon Aug 08 2022 09:15:10 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5426298},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18287941,"external":19861718,"heapTotal":50356224,"heapUsed":44241640,"rss":83226624},"pid":117592,"uid":null,"version":"v16.15.1"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","trace":[]}
+info: ::1 - - [08/Aug/2022:03:47:15 +0000] "GET /api/v1/notes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:03:48:54 +0000] "GET /api/v1/notes HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:14:03 +0000] "GET /api/v1/users HTTP/1.1" 200 1421 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:16:34 +0000] "POST /api/v1/users HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:16:53 +0000] "POST /api/v1/users HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:17:14 +0000] "POST /api/v1/users HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:17:40 +0000] "POST /api/v1/users HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:20:22 +0000] "GET /api/v1/users HTTP/1.1" 200 1366 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:24:37 +0000] "POST /api/v1/users/login HTTP/1.1" 202 249 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:25:43 +0000] "GET /api/v1/notes HTTP/1.1" 202 65 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:27:35 +0000] "POST /api/v1/notes HTTP/1.1" 201 321 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:29:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 313 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:30:57 +0000] "POST /api/v1/notes HTTP/1.1" 201 303 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:31:09 +0000] "GET /api/v1/notes HTTP/1.1" 202 827 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:41:49 +0000] "POST /api/v1/notes HTTP/1.1" 201 328 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:42:13 +0000] "POST /api/v1/users/login HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:42:42 +0000] "GET /api/v1/notes HTTP/1.1" 202 65 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:44:22 +0000] "POST /api/v1/notes HTTP/1.1" 400 69 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:45:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 332 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:49:18 +0000] "POST /api/v1/notes HTTP/1.1" 201 322 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:49:25 +0000] "GET /api/v1/notes HTTP/1.1" 202 602 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:53:09 +0000] "POST /api/v1/notes HTTP/1.1" 201 302 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:16:03 +0000] "PUT /api/v1/notes/62f0c0e514ce82c2ddf26c96 HTTP/1.1" 202 308 "-" "PostmanRuntime/7.29.2"
+

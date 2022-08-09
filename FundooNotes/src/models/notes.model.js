@@ -16,6 +16,9 @@ const noteSchema = new Schema(
     },
     IsTrashed: {
         type: Boolean
+    },
+    userId: {
+        type: String
     }
 
   },

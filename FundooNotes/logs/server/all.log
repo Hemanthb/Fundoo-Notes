@@ -124,3 +124,160 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-05T1
 info: Connected to the database. {"timestamp":"2022-08-05T17:07:24.893Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T01:47:11.993Z"}
 info: Connected to the database. {"timestamp":"2022-08-06T01:47:12.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T02:50:04.847Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T02:50:04.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T02:55:15.877Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T02:55:15.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T02:55:48.833Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T02:55:48.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-07T19:08:09.090Z"}
+info: Connected to the database. {"timestamp":"2022-08-07T19:08:09.112Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T19:14:13.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T02:55:31.270Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T02:55:31.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:02:25.079Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:02:25.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:03:12.167Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:03:12.185Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:06:28.355Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:06:28.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:08:27.185Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:08:27.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:10:37.778Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:10:37.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:13:23.058Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:13:23.082Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:14:04.801Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:14:04.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:17:07.562Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:17:07.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:17:26.425Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:17:26.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:23:59.066Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:23:59.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:24:49.121Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:24:49.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:26:03.043Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:26:03.063Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'EmailId')
+TypeError: Cannot read properties of undefined (reading 'EmailId')
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:29:32
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:22:26)
+    at tryCatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:144:13) {"date":"Mon Aug 08 2022 08:56:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5425168},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18399469,"external":19973206,"heapTotal":49307648,"heapUsed":44501648,"rss":82182144},"pid":107172,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'EmailId')\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:29:32\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:223:12\n    at getSecret (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:90:14)\n    at Object.verify (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:94:10)\n    at _callee$ (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:22:26)\n    at tryCatch (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at userAuth (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:12:22)\n    at Layer.handle [as handle_request] (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js:144:13)","timestamp":"2022-08-08T03:26:20.760Z","trace":[{"column":32,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":null,"line":29,"method":null,"native":false},{"column":12,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":"getSecret","line":90,"method":null,"native":false},{"column":10,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":"Object.verify","line":94,"method":"verify","native":false},{"column":26,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":22,"method":null,"native":false},{"column":17,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":22,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":"userAuth","line":12,"method":null,"native":false},{"column":5,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:27:43.127Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:27:43.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:30:40.814Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:30:40.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:33:27.670Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:33:27.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:34:42.811Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:34:42.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:36:39.469Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:36:39.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:37:03.124Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:37:03.153Z"}
+error: uncaughtException: Authorization token is Incorrect
+Error: Authorization token is Incorrect
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:24:15
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:133:14
+    at getSecret (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:22:9)
+    at tryCatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:144:13) {"date":"Mon Aug 08 2022 09:07:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5425831},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19502854,"external":31624240,"heapTotal":81920000,"heapUsed":56232680,"rss":116920320},"pid":112188,"uid":null,"version":"v16.15.1"},"stack":"Error: Authorization token is Incorrect\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:24:15\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:133:14\n    at getSecret (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:90:14)\n    at Object.verify (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js:94:10)\n    at _callee$ (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:22:9)\n    at tryCatch (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at userAuth (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:12:22)\n    at Layer.handle [as handle_request] (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js:144:13)","timestamp":"2022-08-08T03:37:23.532Z","trace":[{"column":15,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":null,"line":24,"method":null,"native":false},{"column":14,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":null,"line":133,"method":null,"native":false},{"column":14,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":"getSecret","line":90,"method":null,"native":false},{"column":10,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\jsonwebtoken\\verify.js","function":"Object.verify","line":94,"method":"verify","native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":22,"method":null,"native":false},{"column":17,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":22,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":"userAuth","line":12,"method":null,"native":false},{"column":5,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:40:22.817Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:40:22.837Z"}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Mon Aug 08 2022 09:10:29 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5426016},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18454562,"external":23169366,"heapTotal":81813504,"heapUsed":48927640,"rss":115220480},"pid":114756,"uid":null,"version":"v16.15.1"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","timestamp":"2022-08-08T03:40:29.147Z","trace":[]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:41:04.598Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:41:04.618Z"}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Mon Aug 08 2022 09:11:14 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5426062},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18446370,"external":23169212,"heapTotal":82075648,"heapUsed":48875104,"rss":115032064},"pid":87108,"uid":null,"version":"v16.15.1"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","timestamp":"2022-08-08T03:41:14.785Z","trace":[]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:44:58.304Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:44:58.325Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:22:9)
+    at tryCatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-08T03:45:04.741Z"}
+error: uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".
+UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>". {"date":"Mon Aug 08 2022 09:15:10 GMT+0530 (India Standard Time)","error":{"code":"ERR_UNHANDLED_REJECTION"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5426298},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18279725,"external":19853462,"heapTotal":50356224,"heapUsed":43964232,"rss":82268160},"pid":117592,"uid":null,"version":"v16.15.1"},"stack":"UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"#<Object>\".","timestamp":"2022-08-08T03:45:10.426Z","trace":[]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:47:09.940Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:47:09.960Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:22:9)
+    at tryCatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-08T03:47:15.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T03:48:46.294Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T03:48:46.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T06:08:01.278Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T06:08:01.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T07:45:31.323Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T07:45:31.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-08T19:03:03.742Z"}
+info: Connected to the database. {"timestamp":"2022-08-08T19:03:03.761Z"}

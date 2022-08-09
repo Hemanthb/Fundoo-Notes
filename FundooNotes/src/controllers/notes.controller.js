@@ -32,7 +32,7 @@ export const newNotes = async (req, res, next) => {
  */
 export const getAllNotes = async (req, res, next) => {
     try{
-        const data = await notesService.getNotes();
+        const data = await notesService.getNotes(req.body);
         res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: data,

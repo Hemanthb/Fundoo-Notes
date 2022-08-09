@@ -1,20 +1,16 @@
 import Notes from '../models/notes.model';
+import { Jwt } from 'jsonwebtoken';
 
 //create new notes
 export const newNotes = async (body) => {
-    const existingNotes = await Notes.findOne({Title:body.Title});
-    if(existingNotes){
-        throw new Error("Notes with same Title exists already!");
-    }
-    else{
-        const data = await Notes.create(body);
-        return data;
-    }
+    const data = await Notes.create(body);
+    return data;
+    
 };
 
 //Fetch all Notes
-export const getNotes = (body) => {
-    const getNotesDetails = Notes.find(function(err,docs){});
+export const getNotes = async (body) => {
+    const getNotesDetails = await Notes.find({userId:body.userId});
     return getNotesDetails;
 };
 
