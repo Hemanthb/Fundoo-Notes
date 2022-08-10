@@ -1,6 +1,7 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+import * as utilsService from '../utils/user.util';
 
 //get all users
 export const getAllUsers = async () => {
@@ -25,7 +26,7 @@ export const newUser = async (body) => {
 
 //Checks whether login details are valid
 export const checkLogin = async (body) => {
-  const loginDetails = await User.findOne({EmailId:body.EmailId})
+  const loginDetails = await User.findOne({EmailId:body.EmailId});
   
   if(loginDetails){
     const checkPwdMatch = await bcrypt.compare(body.Password,loginDetails.Password);
@@ -40,4 +41,29 @@ export const checkLogin = async (body) => {
   else{
     throw new Error("Invalid User Id!");
   }
+};
+
+//For forgot password
+export const forgotPassword = async (body) => {
+  const data = await User.findOne({EmailId:body.EmailId});
+  if(data){
+    const token = jwt.sign({EmailId:body.EmailId,id:data._id},process.env.NEW_SECRET_KEY);
+    const details = await utilsService.sendMail(data.EmailId,token);
+    return details;
+  }
+  else{
+    throw new Error("User doesn't exist!");
+  }
+};
+
+//To reset password
+export const resetPassword = async (body) => {
+  const data = await User.findOneAndUpdate({EmailId:body.EmailId},
+    {
+      Password:body.Password
+    },
+    {
+      new:true
+    });
+  return data;
 };
