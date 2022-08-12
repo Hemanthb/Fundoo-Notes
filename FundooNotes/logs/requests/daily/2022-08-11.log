@@ -1,0 +1,10 @@
+info: ::1 - - [11/Aug/2022:03:29:29 +0000] "GET /api/v1/users HTTP/1.1" 200 1632 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:30:26 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 413 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:31:47 +0000] "GET /api/v1/users/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbElkIjoibG9rZXc3MzE5MUBsb2dvZGV6LmNvbSIsImlkIjoiNjJmMzUwOWFmNDA3ODk0MDBkZDE3ZmUzIiwiaWF0IjoxNjYwMTg4NjIxfQ.32HTDPgYjKW8HykplGjB6Lv-sqpFK6YjNPxJS4zh_6Y HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Aug/2022:03:33:40 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 272 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Aug/2022:03:35:16 +0000] "POST /api/v1/users/login HTTP/1.1" 400 49 "-" "PostmanRuntime/7.29.2"
+

@@ -58,9 +58,11 @@ export const forgotPassword = async (body) => {
 
 //To reset password
 export const resetPassword = async (body) => {
+  const saltRounds = 10;
+  const hashedPassword = await bcrypt.hash(body.Password,saltRounds);
   const data = await User.findOneAndUpdate({EmailId:body.EmailId},
     {
-      Password:body.Password
+      Password:hashedPassword
     },
     {
       new:true

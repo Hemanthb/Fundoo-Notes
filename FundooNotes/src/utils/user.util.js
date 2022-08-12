@@ -33,7 +33,7 @@ const oAuth2Client = new google.auth.OAuth2(
         to: email,
         subject: 'Hello from gmail using API',
         text: 'Hello from gmail email using API',
-        html: '<h1>To reset your password<a href="http://localhost:3000/api/v1/users/resetPwd/${token}">click here</a></h1>',
+        html: `<h1>To reset your password<a href="http://localhost:3000/api/v1/users/resetPwd/${token}">click here</a></h1>`,
       };
   
       const result = await transport.sendMail(mailOptions);
