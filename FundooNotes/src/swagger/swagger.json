@@ -37,7 +37,7 @@
                 "produces": [
                     "application/json"
                 ],
-                "responses": [
+                "responses": 
                     {
                         "201": {
                             "description": "User Created"
@@ -47,7 +47,7 @@
                         }
                     }
 
-                ]
+                
             }
             
         },
@@ -70,7 +70,7 @@
                 "produces": [
                     "application/json"
                 ],
-                "responses": [
+                "responses": 
                     {
                         "201": {
                             "description": "User Created",
@@ -82,9 +82,7 @@
                         "500": {
                             "description": "Internal Server Error"
                         }
-                    }
-
-                ],
+                    },
                 "security": [
                     {
                         "JWT": []

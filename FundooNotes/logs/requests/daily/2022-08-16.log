@@ -1,0 +1,246 @@
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:09:10:00 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:09:21:47 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:09:31:52 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:09:31:52 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:09:32:20 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:09:32:20 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:09:33:07 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:09:33:07 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:09:34:06 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:09:34:06 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [16/Aug/2022:09:55:50 +0000] "POST /api/v1/users/login HTTP/1.1" 400 49 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Aug/2022:09:55:59 +0000] "POST /api/v1/users/login HTTP/1.1" 400 49 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Aug/2022:09:56:31 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Aug/2022:09:56:45 +0000] "GET /api/v1/users HTTP/1.1" 200 1845 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Aug/2022:09:57:16 +0000] "POST /api/v1/users/login HTTP/1.1" 400 49 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Aug/2022:09:57:32 +0000] "POST /api/v1/users/login HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:10:02:36 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:10:02:36 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:10:02:36 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:10:03:02 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:10:03:02 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:10:03:02 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [16/Aug/2022:10:14:25 +0000] "GET /api/v1/users HTTP/1.1" 200 1845 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Aug/2022:10:15:19 +0000] "POST /api/v1/forgetPwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Aug/2022:10:15:45 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 403 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Aug/2022:10:16:59 +0000] "GET /api/v1/users/forgetPwd HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49"
+
+info: ::1 - - [16/Aug/2022:10:16:59 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:10:43:24 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:10:43:24 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:10:43:29 +0000] "POST /api/v1/users/resetPwd HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:10:43:29 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:05:44 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:05:45 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:05:45 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 1091 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:05:45 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:05:45 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:15:52 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:15:52 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:15:57 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:15:57 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:15:57 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:18:04 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:18:04 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:18:09 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:18:10 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:18:10 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 250 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:18:10 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:22:34 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:22:34 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:22:39 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:22:39 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:22:39 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [16/Aug/2022:11:25:33 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 248 "-" "PostmanRuntime/7.29.2"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:27:37 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:27:37 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:27:42 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 250 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:27:42 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:27:42 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:27:42 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:36:02 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:36:02 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:36:07 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:36:07 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:36:07 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:38:25 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:38:25 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:38:29 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 250 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:38:29 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:38:29 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:38:29 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:53:00 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:53:01 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:53:06 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:53:06 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:53:06 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:54:12 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:54:12 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:54:17 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:54:17 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:54:17 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:11:54:17 +0000] "PUT /api/v1/notes/noteId HTTP/1.1" 400 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:12:00 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:12:00 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:12:00 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 1091 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:12:00 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:12:00 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:12:00 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:12:00 +0000] "PUT /api/v1/notes/noteId HTTP/1.1" 400 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:14 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:14 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:18 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 250 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:18 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:18 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:18 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:18 +0000] "PUT /api/v1/notes/62fb8b0acbee633cea7d1b77 HTTP/1.1" 202 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:47 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:47 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:52 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 250 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:52 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:52 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:52 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:18:52 +0000] "PUT /api/v1/notes/62fb8b2c22f7f33c3e9f81c6 HTTP/1.1" 202 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:47:26 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:47:26 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:47:31 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:47:31 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:47:31 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:47:31 +0000] "PUT /api/v1/notes/62fb91e3fbe5ac3c268b4783 HTTP/1.1" 202 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:48:54 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:48:55 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:00 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 250 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:00 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:00 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:00 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:00 +0000] "PUT /api/v1/notes/62fb923c3099c6c06574c230 HTTP/1.1" 202 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:29 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:29 +0000] "POST /api/v1/users/login HTTP/1.1" 202 253 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:34 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 250 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:34 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:34 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:34 +0000] "GET /api/v1/notes HTTP/1.1" 202 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:34 +0000] "PUT /api/v1/notes/62fb925e7489a6342ae69b5d HTTP/1.1" 202 340 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [16/Aug/2022:12:49:34 +0000] "DELETE /api/v1/notes/62fb925e7489a6342ae69b5d HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+

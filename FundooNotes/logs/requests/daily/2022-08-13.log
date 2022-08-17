@@ -1,0 +1,34 @@
+info: ::1 - - [13/Aug/2022:02:28:30 +0000] "GET / HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:28:30 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:28:39 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:28:39 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10649 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:28:39 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 144489 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:28:39 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 311814 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:28:39 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1057490 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:29:25 +0000] "POST /api/v1/users/register HTTP/1.1" 201 322 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:29:59 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 412 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:30:29 +0000] "GET /api/v1/users/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbElkIjoiaG9kaWJpMTA3MEB1a2dlbnQuY29tIiwiaWQiOiI2MmY3MGM4NWE4YzY2MDIxNGU0YmNlNWQiLCJpYXQiOjE2NjAzNTc3OTV9.UGR7UH0hyILywE-216QEpk8QsmJIzC3MXFY1B_xKZjE HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:30:29 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:30:40 +0000] "GET /api/v1/users/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbElkIjoiaG9kaWJpMTA3MEB1a2dlbnQuY29tIiwiaWQiOiI2MmY3MGM4NWE4YzY2MDIxNGU0YmNlNWQiLCJpYXQiOjE2NjAzNTc3OTV9.UGR7UH0hyILywE-216QEpk8QsmJIzC3MXFY1B_xKZjE HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:31:28 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 323 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:02:32:16 +0000] "POST /api/v1/users/login HTTP/1.1" 202 257 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:03:02:17 +0000] "GET /api/v1/notes HTTP/1.1" 202 65 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:03:03:01 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 324 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Aug/2022:03:03:54 +0000] "GET /api/v1/notes HTTP/1.1" 202 330 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+

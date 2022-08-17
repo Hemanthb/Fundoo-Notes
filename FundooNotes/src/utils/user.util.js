@@ -37,7 +37,8 @@ const oAuth2Client = new google.auth.OAuth2(
       };
   
       const result = await transport.sendMail(mailOptions);
-      return result;
+      //return result;
+      return token;
     } catch (error) {
       return error;
     }
