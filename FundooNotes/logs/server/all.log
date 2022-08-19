@@ -884,3 +884,111 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-08-17T10:32:50.462Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-17T16:55:34.777Z"}
+info: Connected to the database. {"timestamp":"2022-08-17T16:55:34.800Z"}
+error: uncaughtException: The client is closed
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\client\index.js:409:31)
+    at Commander.commandsExecutor (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\client\index.js:170:154)
+    at Commander.get (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/redis.middleware.js:4:32)
+    at tryCatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at redisCheck (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/redis.middleware.js:3:24)
+    at Layer.handle [as handle_request] (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:31:9 {"date":"Wed Aug 17 2022 22:27:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6251428},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339169,"external":20185173,"heapTotal":121712640,"heapUsed":116428920,"rss":158040064},"pid":153212,"uid":null,"version":"v16.15.1"},"stack":"Error: The client is closed\n    at Commander._RedisClient_sendCommand (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:409:31)\n    at Commander.commandsExecutor (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:170:154)\n    at Commander.get (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\commander.js:8:29)\n    at _callee$ (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js:4:32)\n    at tryCatch (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at redisCheck (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js:3:24)\n    at Layer.handle [as handle_request] (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:31:9","timestamp":"2022-08-17T16:57:17.579Z","trace":[{"column":31,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander._RedisClient_sendCommand","line":409,"method":"_RedisClient_sendCommand","native":false},{"column":154,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.commandsExecutor","line":170,"method":"commandsExecutor","native":false},{"column":29,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\commander.js","function":"Commander.get","line":8,"method":"get","native":false},{"column":32,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js","function":"_callee$","line":4,"method":null,"native":false},{"column":17,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js","function":"redisCheck","line":3,"method":null,"native":false},{"column":5,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":null,"line":31,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-17T17:05:49.964Z"}
+info: Connected to the database. {"timestamp":"2022-08-17T17:05:49.982Z"}
+error: uncaughtException: The client is closed
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\client\index.js:409:31)
+    at Commander.commandsExecutor (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\client\index.js:170:154)
+    at Commander.get (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/redis.middleware.js:4:32)
+    at tryCatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at redisCheck (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/redis.middleware.js:3:24)
+    at Layer.handle [as handle_request] (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:31:9 {"date":"Wed Aug 17 2022 22:36:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6251951},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19198742,"external":21033593,"heapTotal":180367360,"heapUsed":124538784,"rss":216379392},"pid":141040,"uid":null,"version":"v16.15.1"},"stack":"Error: The client is closed\n    at Commander._RedisClient_sendCommand (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:409:31)\n    at Commander.commandsExecutor (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:170:154)\n    at Commander.get (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\commander.js:8:29)\n    at _callee$ (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js:4:32)\n    at tryCatch (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at redisCheck (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js:3:24)\n    at Layer.handle [as handle_request] (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:31:9","timestamp":"2022-08-17T17:06:00.980Z","trace":[{"column":31,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander._RedisClient_sendCommand","line":409,"method":"_RedisClient_sendCommand","native":false},{"column":154,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.commandsExecutor","line":170,"method":"commandsExecutor","native":false},{"column":29,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\commander.js","function":"Commander.get","line":8,"method":"get","native":false},{"column":32,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js","function":"_callee$","line":4,"method":null,"native":false},{"column":17,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js","function":"redisCheck","line":3,"method":null,"native":false},{"column":5,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":null,"line":31,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-17T17:06:46.895Z"}
+info: Connected to the database. {"timestamp":"2022-08-17T17:06:46.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:40:22.375Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:40:22.403Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:40:45.611Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:40:45.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:44:48.290Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:44:48.328Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:51:10.682Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:51:10.709Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:51:30.206Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:51:30.233Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:52:16.275Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:52:16.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:53:39.008Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:53:39.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:54:08.278Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:54:08.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:55:11.546Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:55:11.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:56:50.387Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:56:50.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:57:16.822Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:57:16.849Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T07:28:35.349Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T07:28:35.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T07:29:25.216Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T07:29:25.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T01:23:07.164Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T01:23:07.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T01:47:04.322Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T01:47:04.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T01:49:04.681Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T01:49:04.701Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T01:55:03.790Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T01:55:03.813Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:00:41.816Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:00:41.841Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:01:56.606Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:01:56.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:02:09.996Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:02:10.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:05:16.819Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:05:16.839Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:09:37.492Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:09:37.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:13:43.373Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:13:43.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:30:14.890Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:30:14.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:37:25.950Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:37:25.972Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:37:36.560Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:37:36.583Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:38:38.368Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:38:38.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T05:08:21.591Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T05:08:21.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T05:12:33.045Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T05:12:33.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T05:22:02.033Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T05:22:02.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T05:22:39.229Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T05:22:39.251Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T05:24:42.377Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T05:24:42.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T05:25:18.541Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T05:25:18.570Z"}

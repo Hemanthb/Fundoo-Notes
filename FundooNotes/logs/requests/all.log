@@ -1480,3 +1480,161 @@ info: ::ffff:127.0.0.1 - - [17/Aug/2022:10:32:56 +0000] "DELETE /api/v1/notes/62
 
 info: ::ffff:127.0.0.1 - - [17/Aug/2022:10:32:56 +0000] "DELETE /api/v1/notes HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
 
+info: ::1 - - [17/Aug/2022:16:56:39 +0000] "POST /api/v1/users/login HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: The client is closed
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\client\index.js:409:31)
+    at Commander.commandsExecutor (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\client\index.js:170:154)
+    at Commander.get (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/redis.middleware.js:4:32)
+    at tryCatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at redisCheck (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/redis.middleware.js:3:24)
+    at Layer.handle [as handle_request] (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:31:9 {"date":"Wed Aug 17 2022 22:27:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6251428},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18354689,"external":20200733,"heapTotal":121712640,"heapUsed":116562504,"rss":159203328},"pid":153212,"uid":null,"version":"v16.15.1"},"stack":"Error: The client is closed\n    at Commander._RedisClient_sendCommand (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:409:31)\n    at Commander.commandsExecutor (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:170:154)\n    at Commander.get (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\commander.js:8:29)\n    at _callee$ (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js:4:32)\n    at tryCatch (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at redisCheck (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js:3:24)\n    at Layer.handle [as handle_request] (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:31:9","trace":[{"column":31,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander._RedisClient_sendCommand","line":409,"method":"_RedisClient_sendCommand","native":false},{"column":154,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.commandsExecutor","line":170,"method":"commandsExecutor","native":false},{"column":29,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\commander.js","function":"Commander.get","line":8,"method":"get","native":false},{"column":32,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js","function":"_callee$","line":4,"method":null,"native":false},{"column":17,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js","function":"redisCheck","line":3,"method":null,"native":false},{"column":5,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":null,"line":31,"method":null,"native":false}]}
+error: uncaughtException: The client is closed
+Error: The client is closed
+    at Commander._RedisClient_sendCommand (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\client\index.js:409:31)
+    at Commander.commandsExecutor (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\client\index.js:170:154)
+    at Commander.get (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/redis.middleware.js:4:32)
+    at tryCatch (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at redisCheck (D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/redis.middleware.js:3:24)
+    at Layer.handle [as handle_request] (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\javascript\projects\Fundoo-Notes\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at D:\javascript\projects\Fundoo-Notes\FundooNotes\src\middlewares\/auth.middleware.js:31:9 {"date":"Wed Aug 17 2022 22:36:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6251951},"process":{"argv":["node","D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\index.js"],"cwd":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19214262,"external":21049153,"heapTotal":180367360,"heapUsed":124672152,"rss":217374720},"pid":141040,"uid":null,"version":"v16.15.1"},"stack":"Error: The client is closed\n    at Commander._RedisClient_sendCommand (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:409:31)\n    at Commander.commandsExecutor (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:170:154)\n    at Commander.get (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\commander.js:8:29)\n    at _callee$ (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js:4:32)\n    at tryCatch (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at redisCheck (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js:3:24)\n    at Layer.handle [as handle_request] (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js:31:9","trace":[{"column":31,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander._RedisClient_sendCommand","line":409,"method":"_RedisClient_sendCommand","native":false},{"column":154,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.commandsExecutor","line":170,"method":"commandsExecutor","native":false},{"column":29,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\commander.js","function":"Commander.get","line":8,"method":"get","native":false},{"column":32,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js","function":"_callee$","line":4,"method":null,"native":false},{"column":17,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":24,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/redis.middleware.js","function":"redisCheck","line":3,"method":null,"native":false},{"column":5,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":9,"file":"D:\\javascript\\projects\\Fundoo-Notes\\FundooNotes\\src\\middlewares\\/auth.middleware.js","function":null,"line":31,"method":null,"native":false}]}
+info: ::1 - - [18/Aug/2022:02:45:29 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Aug/2022:02:45:40 +0000] "POST /api/v1/users/login HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Aug/2022:02:46:40 +0000] "GET /api/v1/notes HTTP/1.1" 200 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Aug/2022:02:46:47 +0000] "GET /api/v1/notes HTTP/1.1" 200 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Aug/2022:02:46:52 +0000] "GET /api/v1/notes HTTP/1.1" 200 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Aug/2022:02:51:41 +0000] "GET /api/v1/notes HTTP/1.1" 202 322 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Aug/2022:02:54:17 +0000] "GET /api/v1/notes HTTP/1.1" 202 322 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Aug/2022:02:55:19 +0000] "GET /api/v1/notes HTTP/1.1" 200 333 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Aug/2022:02:55:25 +0000] "GET /api/v1/notes HTTP/1.1" 200 333 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Aug/2022:02:55:29 +0000] "GET /api/v1/notes HTTP/1.1" 200 333 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Aug/2022:07:30:33 +0000] "GET /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 333 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:39:22 +0000] "GET /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 333 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:40:03 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 202 328 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:47:14 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:47:34 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:47:41 +0000] "GET /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 333 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:49:13 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:52:28 +0000] "GET /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 320 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:53:17 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:53:29 +0000] "GET /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 313 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:55:31 +0000] "GET /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:59:30 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:59:47 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:01:59:55 +0000] "GET /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:00:17 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:00:55 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:01:01 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:01:07 +0000] "GET /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:02:20 +0000] "POST /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:03:52 +0000] "POST /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:04:36 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:05:30 +0000] "POST /api/v1/users/login HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:06:05 +0000] "GET /api/v1/notes HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:06:41 +0000] "PUT /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:07:03 +0000] "GET /api/v1/notes HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:07:19 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:07:26 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:07:33 +0000] "GET /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:08:03 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:09:55 +0000] "PUT /api/v1/notes/62f60233699ad8a959b9e21b HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:12:39 +0000] "POST /api/v1/notes/add HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:14:00 +0000] "POST /api/v1/notes/add HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:14:27 +0000] "POST /api/v1/users/login HTTP/1.1" 202 251 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:15:05 +0000] "GET /api/v1/notes/add HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:15:12 +0000] "POST /api/v1/notes/add HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:29:53 +0000] "POST /api/v1/notes/add HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:30:18 +0000] "POST /api/v1/notes/add HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:33:01 +0000] "POST /api/v1/notes/add HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:33:26 +0000] "GET /api/v1/notes HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:34:01 +0000] "GET /api/v1/notes HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:36:54 +0000] "POST /api/v1/notes/add HTTP/1.1" 200 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:37:52 +0000] "POST /api/v1/notes/add HTTP/1.1" 201 306 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:38:04 +0000] "GET /api/v1/notes HTTP/1.1" 202 568 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:38:14 +0000] "GET /api/v1/notes HTTP/1.1" 200 579 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:39:37 +0000] "PUT /api/v1/notes/62fef78096c1d91fba875238 HTTP/1.1" 202 314 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:39:47 +0000] "GET /api/v1/notes HTTP/1.1" 202 569 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:02:39:54 +0000] "GET /api/v1/notes HTTP/1.1" 200 580 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:25:38 +0000] "GET /api/v1/notes/62fef78096c1d91fba875238 HTTP/1.1" 200 306 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:25:54 +0000] "GET /api/v1/notes/62fef78096c1d91fba875238 HTTP/1.1" 200 317 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:05:26:18 +0000] "GET /api/v1/notes HTTP/1.1" 200 580 "-" "PostmanRuntime/7.29.2"
+
