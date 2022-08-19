@@ -96,3 +96,15 @@ info: ::1 - - [19/Aug/2022:05:25:54 +0000] "GET /api/v1/notes/62fef78096c1d91fba
 
 info: ::1 - - [19/Aug/2022:05:26:18 +0000] "GET /api/v1/notes HTTP/1.1" 200 580 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [19/Aug/2022:09:58:00 +0000] "GET /api/v1/users HTTP/1.1" 200 1845 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:09:59:31 +0000] "GET /api/v1/users/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:09:59:42 +0000] "POST /api/v1/users/register HTTP/1.1" 201 329 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:10:03:06 +0000] "DELETE /api/v1/users/62ff5f0eade8a4622af29a36 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:10:04:59 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Aug/2022:10:05:11 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+

@@ -38,3 +38,16 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T0
 info: Connected to the database. {"timestamp":"2022-08-19T05:24:42.404Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T05:25:18.541Z"}
 info: Connected to the database. {"timestamp":"2022-08-19T05:25:18.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T09:57:36.895Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T09:57:36.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T10:01:17.717Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T10:01:17.742Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T10:02:29.065Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T10:02:29.095Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T10:04:59.464Z"}

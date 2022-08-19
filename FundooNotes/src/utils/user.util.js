@@ -43,6 +43,38 @@ const oAuth2Client = new google.auth.OAuth2(
       return error;
     }
   }
+
+  export async function registerMail(email) {
+    try {
+      const accessToken = await oAuth2Client.getAccessToken();
+  
+      const transport = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+          type: 'OAuth2',
+          user: 'hemanth.b@bridgelabz.com',
+          clientId: CLIENT_ID,
+          clientSecret: CLIENT_SECRET,
+          refreshToken: REFRESH_TOKEN,
+          accessToken: accessToken,
+        },
+      });
+  
+      const mailOptions = {
+        from: 'Hemanth <hemanth.b@bridgelabz.com>',
+        to: email,
+        subject: 'Hi ! User registration',
+        text: 'Hello!! Your new acct created',
+        html: `<h1>Account registered Successfully!!!</h1>`,
+      };
+  
+      const result = await transport.sendMail(mailOptions);
+      return result;
+      
+    } catch (error) {
+      return error;
+    }
+  }
   
   /* sendMail()
     .then((result) => console.log('Email sent...', result))
